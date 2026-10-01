@@ -1,0 +1,5 @@
+{
+  "token": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+  "channel_id": 0,
+  "admin_ids": []
+}
