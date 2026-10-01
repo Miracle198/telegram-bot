@@ -1,6 +1,6 @@
 """
 Telegram bot that posts a random anime picture with an English quote
-to a channel/group every day at 20:00 (Europe/Kyiv).
+to a channel/group every day at 20:00 (Europe/Helsinki).
 
 Stack: aiogram 3.x + APScheduler (AsyncIOScheduler) + Pillow + requests.
 Commands:
@@ -67,7 +67,7 @@ FONT_PATH: str | None = CONFIG.get("font_path")  # optional; default is Montserr
 
 # Time zone and posting time (defaults: Europe/Kyiv, 20:00)
 try:
-    TIMEZONE = pytz.timezone(CONFIG.get("timezone", "Europe/Kyiv"))
+    TIMEZONE = pytz.timezone(CONFIG.get("timezone", "Europe/Helsinki"))
 except pytz.UnknownTimeZoneError:
     sys.exit(f'Unknown time zone in config.json: {CONFIG.get("timezone")}')
 
