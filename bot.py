@@ -154,7 +154,7 @@ async def main() -> None:
     dp = Dispatcher()
     dp.include_router(router)
 
-    # Scheduler pinned to the Kyiv time zone: 20:00 Kyiv time regardless of the server clock
+    # Scheduler pinned to the Helsinki time zone: 20:00 Finland time regardless of the server clock
     scheduler = AsyncIOScheduler(timezone=TIMEZONE)
     scheduler.add_job(
         scheduled_job,
