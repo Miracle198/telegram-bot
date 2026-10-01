@@ -1,6 +1,6 @@
 # 🪐 Anime Vibe Autoposter Bot
 
-An advanced, asynchronous Telegram bot that automatically generates and posts aesthetic anime pictures with motivational English quotes to a specific channel or chat daily at 20:00 (EET timezone).
+An advanced, asynchronous Telegram bot that automatically generates and posts aesthetic anime pictures with motivational English quotes to a specific channel or chat daily at 10:00 (EET timezone).
 
 ## 🛠️ Technical Features
 - **Asynchronous Architecture:** Built using `aiogram 3.x` and `APScheduler` for smooth, non-blocking operation.
